@@ -299,3 +299,27 @@ section .optionList .option .icon{
     border-color: #a42834;
 }
 /* end question and answer section attributes */
+
+/* footer attributes */
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}
+
+footer .totalQuestions span{
+    display: flex;
+    user-select: none;
+}
+
+footer .totalQuestions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+footer .totalQuestions span p:first-child{
+    padding-left: 0px;
+}
