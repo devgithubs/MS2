@@ -408,3 +408,24 @@ footer button.show{
     transition: all 0.3s ease;
 }
 /* end quiz reult attributes */
+
+/* button attributes */
+.buttons button.restart{
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button.restart:hover{
+    background: #0263ca;
+}
+
+.buttons button.quit{
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.quit:hover{
+    color: #fff;
+    background: #007bff;
+}
+/* end button attributes */
