@@ -368,3 +368,25 @@ footer button.show{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+.resultBox .icon{
+    font-size: 100px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.resultBox .complete_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.resultBox .score_text span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.resultBox .score_text span p{
+    padding: 0 4px;
+    font-weight: 600;
+}
