@@ -390,3 +390,21 @@ footer button.show{
     padding: 0 4px;
     font-weight: 600;
 }
+.resultBox .buttons{
+    display: flex;
+    margin: 20px 0;
+}
+.resultBox .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
+/* end quiz reult attributes */
