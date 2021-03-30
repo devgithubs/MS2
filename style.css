@@ -429,3 +429,20 @@ footer button.show{
     background: #007bff;
 }
 /* end button attributes */
+
+/* background img attributes */
+.background-img {
+    
+    background: url(./tv.jpg) no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;/*relative parent of absolute child */
+}
+/* end background img attributes */
+/*code adapted from CodingNepal youtube channel*/
