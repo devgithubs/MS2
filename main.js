@@ -109,7 +109,10 @@ function renderResult(){
         let scoreTag = '<span>not bad &#129321, You scored <p>'+ userScore +'</p> out of <p>'+ quizQuestion[0].length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
-    
+    else{ // if user scored less than 3
+        let scoreTag = '<span>oh dear &#129320, You scored only <p>'+ userScore +'</p> out of <p>'+ quizQuestion[0].length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
 }
 
 //function that handles the timeline progress bar
