@@ -21,6 +21,15 @@ async function quizAPI(data) {
     questions.push(item); //push item to the global questions variable    
   });
 //pass the questions to the shuffle function
-  //shuffleQuestions(questions); 
+  shuffleQuestions(questions); 
    
+}
+//we construct the below function to shuffle the elements of the array so that the possible answers are different rather than the
+//correct answer being displayed as the first index as provided by the api
+function shuffleQuestions(answers) {
+    for (const [index, item] of answers.entries()) {//The entries() method returns an Array Iterator object with key/value pairs.
+      const arrayShuffle = [...item.possible_answers];
+      item.possible_answers = [arrayShuffle.sort(() => Math.random() - .5)]//sort func on possible answers
+      answers[index].possible_answers = [...arrayShuffle.sort(() => Math.random() - .5)]//sort func on index possible answers
+    }   
 }
