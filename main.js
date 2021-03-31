@@ -100,6 +100,9 @@ function timerProgressBar(time){
     function timer(){
         time += 1; //increasing time value by 1
         timeLine.style.width = time + "px"; //increasing width of timeLine with pixel by adding time value
+        if(time > 549){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+        }
     }
 }
 
