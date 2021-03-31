@@ -27,3 +27,14 @@ continueBtn.onclick = ()=>{
     infoBox.classList.remove("activeInfo"); //hide info box
     quizBox.classList.add("activeQuiz"); //show quiz box
 }
+
+//declaring variables
+let quizQuestion = new Array(questions);//assigning the global questions array to a new quizQuestion array.
+let timeValue =  15;//default 15 seconds. 
+let question_count = 0;
+let question_index = 0;
+let question_number = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
