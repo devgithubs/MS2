@@ -100,5 +100,26 @@ function beginTimer(time){
     function timer(){
         timeCount.textContent = time; //changing the value of timeCount with time value argument - 15seconds
         time--; //decrement the time value
+
+        if(time < 9){ //if timer is less than 9
+        let addZero = timeCount.textContent; 
+        timeCount.textContent = "0" + addZero; //add a 0 before time value - double digit read out
+        }
+        if(time < 0){ //if timer is less than 0
+            clearInterval(counter); //clear counter
+            timeText.textContent = "Time Up!"; //change the time text to time up
+            const questionOptions = optionList.children.length; //setting number of option items
+            let correctAnswer = quizQuestion[question_index][question_count].correct_answer; //getting correct answer from array, assigning to correctAnswer
+            for(i=0; i < questionOptions; i++){
+                if(optionList.children[i].textContent == correctAnswer){ //if there is an option which is matched to an array answer
+                    optionList.children[i].setAttribute("class", "option correct"); //adding green color to matched option
+                    optionList.children[i].insertAdjacentHTML("beforeend", correctIcon); //adding tick icon to matched option
+                }
+            }
+            for(i=0; i < questionOptions; i++){
+                optionList.children[i].classList.add("disabled"); //once user selects an option then disabled all other options
+            }
+            nextBtn.classList.add("show"); //show the next button if user selected any option
+        }
     }
 }
