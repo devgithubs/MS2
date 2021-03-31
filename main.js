@@ -94,6 +94,14 @@ function answerSelection(answer){
     nextBtn.classList.add("show"); //show the next button if user selected any option
 }
 
+//function to display users score 
+function renderResult(){
+    infoBox.classList.remove("activeInfo"); //hide info panel
+    quizBox.classList.remove("activeQuiz"); //hide quiz panel
+    resultBox.classList.add("activeResult"); //display result panel
+    const scoreText = resultBox.querySelector(".score_text");
+}
+
 //function that handles the timeline progress bar
 function timerProgressBar(time){
     counterLine = setInterval(timer, 29);
