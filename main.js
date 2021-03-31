@@ -105,6 +105,10 @@ function renderResult(){
         let scoreTag = '<span>congratulations! &#128526, You scored <p>'+ userScore +'</p> out of <p>'+ quizQuestion[0].length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
+    else if(userScore > 3){ // if user scored more than 3
+        let scoreTag = '<span>not bad &#129321, You scored <p>'+ userScore +'</p> out of <p>'+ quizQuestion[0].length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
     
 }
 
