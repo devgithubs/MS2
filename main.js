@@ -64,3 +64,13 @@ function displayQuestions(index){
 // creating the divs for icons
 let correctIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let wrongIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+
+//if user clicked on option
+function answerSelection(answer){
+    clearInterval(counter); //clear counter
+    clearInterval(counterLine); //clear counterLine
+    let userSelection = answer.textContent; //getting user selected option
+    let correctAnswer = quizQuestion[question_index][question_count].correct_answer; //getting correct answer from array
+    const questionOptions = optionList.children.length; //getting all option items
+
+}
