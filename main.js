@@ -40,6 +40,10 @@ exitBtn.onclick = ()=>{
 continueBtn.onclick = ()=>{
     infoBox.classList.remove("activeInfo"); //hide info box
     quizBox.classList.add("activeQuiz"); //show quiz box
+    displayQuestions(0); //calling displayQestions function
+    questionCounter(1); //passing 1 parameter to questionCounter
+    beginTimer(15); //calling beginTimer function
+    timerProgressBar(0); //calling timerProgressBar function
 }
 
 //declaring variables
