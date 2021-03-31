@@ -88,4 +88,8 @@ function answerSelection(answer){
             }
         }
     }
+    for(i=0; i < questionOptions; i++){
+        optionList.children[i].classList.add("disabled"); //once user select an option then disabled all options
+    }
+    nextBtn.classList.add("show"); //show the next button if user selected any option
 }
