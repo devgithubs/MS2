@@ -79,6 +79,13 @@ function answerSelection(answer){
         answer.insertAdjacentHTML("beforeend", correctIcon); //adding tick icon to correct selected option
     }else{
         answer.classList.add("incorrect"); //adding red color to correct selection
-        answer.insertAdjacentHTML("beforeend", wrongIcon); //adding cross icon to correct selected option
+        answer.insertAdjacentHTML("beforeend", wrongIcon); //adding cross icon to incorrect selected option
+
+        for(i=0; i < questionOptions; i++){
+            if(optionList.children[i].textContent == correctAnswer){ //if the content is = to the correct answer do the following 
+                optionList.children[i].setAttribute("class", "option correct"); //adding green color to correct option
+                optionList.children[i].insertAdjacentHTML("beforeend", correctIcon); //adding tick icon to correct option
+            }
+        }
     }
 }
