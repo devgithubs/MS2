@@ -60,3 +60,7 @@ function displayQuestions(index){
         question_option[i].setAttribute("onclick", "answerSelection(this)");
     }
 }
+
+// creating the divs for icons
+let correctIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
+let wrongIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
