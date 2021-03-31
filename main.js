@@ -57,6 +57,20 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
+/////////////////////////////
+const restartQuiz = resultBox.querySelector(".buttons .restart");//get DOM element for restart button
+const quitQuiz = resultBox.querySelector(".buttons .quit");// get DOM element for quit button
+
+// if/when restartQuiz button clicked
+restartQuiz.onclick = ()=>{
+    quizBox.classList.add("activeQuiz"); //show quiz box
+    resultBox.classList.remove("activeResult"); //hide result box
+    timeValue = 15; 
+    question_count = 0;
+    question_number = 1;
+    userScore = 0;
+    widthValue = 0;
+}
 
 // getting quizQuestion and options from array
 function displayQuestions(index){
