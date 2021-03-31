@@ -21,6 +21,6 @@ async function quizAPI(data) {
     questions.push(item); //push item to the global questions variable    
   });
 //pass the questions to the shuffle function
-  shuffleQuestions(questions); 
+  //shuffleQuestions(questions); 
    
 }
