@@ -53,4 +53,10 @@ function displayQuestions(index){
     question_text.innerHTML = displayQuestion; //adding new questions to question text
     optionList.innerHTML = displayAnswers; //adding new answers to options text
 
+    const question_option = optionList.querySelectorAll(".option");
+
+    // set onclick attribute to all available options
+    for(i=0; i < question_option.length; i++){
+        question_option[i].setAttribute("onclick", "answerSelection(this)");
+    }
 }
