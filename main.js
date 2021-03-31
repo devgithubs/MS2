@@ -17,3 +17,8 @@ startBtn.onclick = ()=>{
     infoBox.classList.add("activeInfo"); //show info box
     welcome.classList.remove("active");//hide welcome message
 }
+// if/when exitQuiz button clicked
+exitBtn.onclick = ()=>{
+    infoBox.classList.remove("activeInfo"); //hide info box
+    welcome.classList.add("active");//add welcome message
+}
