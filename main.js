@@ -100,6 +100,12 @@ function renderResult(){
     quizBox.classList.remove("activeQuiz"); //hide quiz panel
     resultBox.classList.add("activeResult"); //display result panel
     const scoreText = resultBox.querySelector(".score_text");
+    if (userScore > 7){ // if user scored more than 7
+        //creating a new user score number and total question number span
+        let scoreTag = '<span>congratulations! &#128526, You scored <p>'+ userScore +'</p> out of <p>'+ quizQuestion[0].length +'</p></span>';
+        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+    }
+    
 }
 
 //function that handles the timeline progress bar
