@@ -73,4 +73,9 @@ function answerSelection(answer){
     let correctAnswer = quizQuestion[question_index][question_count].correct_answer; //getting correct answer from array
     const questionOptions = optionList.children.length; //getting all option items
 
+    if(userSelection == correctAnswer){ //if user selected option is equal to array's correct answer
+        userScore += 1; //upgrading score value with 1
+        answer.classList.add("correct"); //adding green colour to correct selection
+        answer.insertAdjacentHTML("beforeend", correctIcon); //adding tick icon to correct selected option
+    }
 }
