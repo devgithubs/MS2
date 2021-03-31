@@ -77,5 +77,8 @@ function answerSelection(answer){
         userScore += 1; //upgrading score value with 1
         answer.classList.add("correct"); //adding green colour to correct selection
         answer.insertAdjacentHTML("beforeend", correctIcon); //adding tick icon to correct selected option
+    }else{
+        answer.classList.add("incorrect"); //adding red color to correct selection
+        answer.insertAdjacentHTML("beforeend", wrongIcon); //adding cross icon to correct selected option
     }
 }
