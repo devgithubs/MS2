@@ -135,3 +135,10 @@ function beginTimer(time){
         }
     }
 }
+//function to count current question out of total number of questions in the array of questions amd display to DOM element
+function questionCounter(index){
+    //creating a new span tag and passing the question number and total question
+    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ quizQuestion[0].length +'</p> Questions</span>';//display question number and the overall number of questions
+    question_counter.innerHTML = totalQueCounTag;  //adding new span tag inside question_counter
+}
+//code adapted from CodingNepal youtube channel
