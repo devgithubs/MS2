@@ -94,6 +94,15 @@ function answerSelection(answer){
     nextBtn.classList.add("show"); //show the next button if user selected any option
 }
 
+//function that handles the timeline progress bar
+function timerProgressBar(time){
+    counterLine = setInterval(timer, 29);
+    function timer(){
+        time += 1; //increasing time value by 1
+        timeLine.style.width = time + "px"; //increasing width of timeLine with pixel by adding time value
+    }
+}
+
 //function that handles the count down timer
 function beginTimer(time){
     counter = setInterval(timer, 1000);
