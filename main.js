@@ -10,3 +10,10 @@ const optionList = document.querySelector(".optionList");
 const timeLine = document.querySelector("header .timeLine");
 const timeText = document.querySelector(".timer .timeLeftText");
 const timeCount = document.querySelector(".timer .timerSeconds");
+
+
+// if/when startQuiz button clicked
+startBtn.onclick = ()=>{
+    infoBox.classList.add("activeInfo"); //show info box
+    welcome.classList.remove("active");//hide welcome message
+}
