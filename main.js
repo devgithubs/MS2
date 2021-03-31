@@ -22,3 +22,8 @@ exitBtn.onclick = ()=>{
     infoBox.classList.remove("activeInfo"); //hide info box
     welcome.classList.add("active");//add welcome message
 }
+// if/when continueQuiz button clicked
+continueBtn.onclick = ()=>{
+    infoBox.classList.remove("activeInfo"); //hide info box
+    quizBox.classList.add("activeQuiz"); //show quiz box
+}
