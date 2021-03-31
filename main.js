@@ -1,3 +1,17 @@
+//function that, on load of page, provides the actual day-date-year in the welcome text message. 
+window.onload = function() {
+    var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    var today = new Date();
+    var d = today.getDate();
+    var m = today.getMonth();
+    var currentMonth = months[m];
+    var yyyy = today.getFullYear();
+    today = currentMonth + ' ' + d + ', ' + yyyy;
+    document.getElementById('date').innerHTML =  today;
+    welcome.classList.add("active");
+}
+// date code adapted from https://stackoverflow.com/questions/22234600/enter-date-into-html-onload-javascript
+
 //selecting required DOM elements
 const welcome = document.querySelector(".welcome");
 const startBtn = document.querySelector(".startBtn button");
