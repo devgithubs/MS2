@@ -38,3 +38,19 @@ let userScore = 0;
 let counter;
 let counterLine;
 let widthValue = 0;
+
+
+// getting quizQuestion and options from array
+function displayQuestions(index){
+    const question_text = document.querySelector(".question_text");
+
+    //creating a new span and div tag for question and option and passing the value using array index
+    let displayQuestion = '<span>'+ quizQuestion[question_index][index].question +'</span>';
+    let displayAnswers = '<div class="option"><span>'+ quizQuestion[question_index][index].possible_answers[0] +'</span></div>'
+    + '<div class="option"><span>'+ quizQuestion[question_index][index].possible_answers[1] +'</span></div>'
+    + '<div class="option"><span>'+ quizQuestion[question_index][index].possible_answers[2] +'</span></div>'
+    + '<div class="option"><span>'+ quizQuestion[question_index][index].possible_answers[3] +'</span></div>';
+    question_text.innerHTML = displayQuestion; //adding new questions to question text
+    optionList.innerHTML = displayAnswers; //adding new answers to options text
+
+}
