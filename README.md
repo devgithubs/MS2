@@ -36,6 +36,14 @@ Goals:
     * Get a score total for the number of correct answers selected of the total pool of qiestions asked.
 
 ### Skeleton Plane 
+
+#### Wireframes
+
+![Landing Page](../images/Landing page.png)
+![Initalize Game](../images/Initialize game.png)
+![Question Screen](../images/question screen.png)
+![Quiz Result](../images/quiz result.png)
+
 ### Surface Plane 
 ### Structure Plane
 ### Scope Plane
