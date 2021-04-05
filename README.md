@@ -162,3 +162,10 @@ Another feature of the 'backend' of the project is the integration of the [Open 
 To make the quiz a challenge, I have selected to use multiple choice questions of various difficulty. 
 As the questions and answers all came indexed in the same order it was necessary to prepare a custom shuffle function to randomise these when rendered to the DOM for the users selection.
 This feature was a 10 for importance and a 10 for difficulty. 
+
+
+
+### Features left to implement
+* User selection of game mode difficulty and quantity of questions.
+* User name input and leaderboard rankings.
+* 2 player mode or 1 v computer.
