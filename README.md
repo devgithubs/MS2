@@ -206,3 +206,6 @@ This feature was a 10 for importance and a 10 for difficulty.
 
 * FontAwesome
    * Font Awesome is a font and icon toolkit based on CSS, I added it's CDN to allow the use of icons in the project.
+
+* Google Developer Tools
+   * Used to inspect page elements and help debug issues with the website in real time.
