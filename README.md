@@ -39,13 +39,13 @@ Goals:
 
 #### Wireframes
 
-<img src="assets/images/5.png">
+<img src="assets/images/Landing page.png">
 
-![Initalize Game](../images/Initialize game.png)
+<img src="assets/images/Initialize game.png">
 
-![Question Screen](../images/question screen.png)
+<img src="assets/images/question screen.png">
 
-![Quiz Result](../images/quiz result.png)
+<img src="assets/images/quiz result.png">
 
 ### Surface Plane 
 ### Structure Plane
