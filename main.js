@@ -85,7 +85,14 @@ nextBtn.onclick = ()=>{
     if(question_count < quizQuestion[0].length - 1){ //if question count is less than total question length
         question_count++; //increment the question_count value by 1
         question_number++; //increment the question_number value by 1
-
+        displayQuestions(question_count); //calling showQestions function
+        questionCounter(question_number); //passing question_number value to questionCounter
+        clearInterval(counter); //clear counter
+        clearInterval(counterLine); //clear counterLine
+        beginTimer(timeValue); //calling beginTimer function
+        timerProgressBar(widthValue); //calling timerProgressBar function
+        timeText.textContent = "Time Left"; //change the timeText to Time Left
+        nextBtn.classList.remove("show"); //hide the next button
     }
 }
 
