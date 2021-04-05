@@ -41,11 +41,11 @@ Goals:
 
 <img src="assets/images/Landing page.png">
 
-<img src="assets/images/Initialize game.png">
+<img src="assets/images/Initialize game .png">
 
 <img src="assets/images/question screen.png">
 
-<img src="assets/images/quiz result.png">
+<img src="assets/images/quiz reult.png">
 
 ### Surface Plane 
 ### Structure Plane
