@@ -185,3 +185,24 @@ This feature was a 10 for importance and a 10 for difficulty.
 
 * JavaScript
    * JavaScript primarily for functionality and behaviour throughout the website, event listeners and retrieving the API used for the quizzes questions.  
+
+* Excel
+   * Used to create the bar graph detailing the difficulty/importance matrix for the Scope plane.
+
+* Google Fonts
+   * library of more than a thousand free and open source font families. font-family: 'Karla', sans-serif used throughout this project.
+
+* Bootstrap
+   * The CSS framework directed at responsive, front-end web development.
+
+* Visual Studio Code
+   * VSCode is a source-code editor made by Microsoft. I used VS Code and the live server extension to code and develop this project before transferring the code base to Gitpod for. 
+
+* GitHub
+   * Is the repository I used to store and modify my code and also where my live website is hosted.
+
+* Git 
+   * Is the version control software used to add, commit and push code to the GitHub repository.
+
+* FontAwesome
+   * Font Awesome is a font and icon toolkit based on CSS, I added it's CDN to allow the use of icons in the project.
