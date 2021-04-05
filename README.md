@@ -75,7 +75,7 @@ font-family: 'Karla', sans-serif; imported from Google Fonts used throughout.
 
 User Story:
 
-*Understand the purpose of the site on landing.*
+***Understand the purpose of the site on landing.***
 
 Acceptance criteria:
 * Description informing the user about the quiz.
@@ -83,5 +83,16 @@ Acceptance criteria:
 
 Defined:
 The landing papge will display a TV image as the background. A description box mentioneing the live date and prompting the user to participate in the quiz. A start button will prompt the user to carry on to the next stage of the game.
+
+
+User Story:
+
+***Be able to use the website clearly in the browser.***
+
+Acceptance criteria:
+* Website is readable and rendered clearly for all website content.
+
+Defined:
+The quiz website works best in browser view on devices from iPad and larger. Bootstrap flexbox has been used for the containers' columns and rows for consistent layout.  
 
 ### Scope Plane
