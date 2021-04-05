@@ -72,6 +72,15 @@ restartQuiz.onclick = ()=>{
     widthValue = 0;
 }
 
+// if/when quitQuiz button clicked
+quitQuiz.onclick = ()=>{
+    window.location.reload(); //reload the current window
+}
+
+const nextBtn = document.querySelector("footer .nextBtn");
+const question_counter = document.querySelector("footer .totalQuestions");
+
+
 // getting quizQuestion and options from array
 function displayQuestions(index){
     const question_text = document.querySelector(".question_text");
