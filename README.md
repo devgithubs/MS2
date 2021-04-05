@@ -65,5 +65,11 @@ Answer options: Green if answered correctly. Red if answered incorrectly & corre
 #### Imagery
 Body: Background: Image of retro television used to give the impression of a live TV game show.
 
+#### Iconography 
+Answer options: tick and X icons used when right/wrong answers are selected. Trophy icon and face emoji displayed on result page (changes with result). 
+
+#### Typography
+font-family: 'Karla', sans-serif; imported from Google Fonts used throughout.
+
 ### Structure Plane
 ### Scope Plane
