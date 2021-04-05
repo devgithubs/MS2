@@ -39,11 +39,19 @@ Goals:
 
 #### Wireframes
 
+Potential landing page look
+
 <img src="assets/images/Landing page.png">
+
+Potential start button/game initializer 
 
 <img src="assets/images/Initialize game .png">
 
+Simple question screen layout
+
 <img src="assets/images/question screen.png">
+
+Quiz result with score and message conditional on result
 
 <img src="assets/images/quiz reult.png">
 
