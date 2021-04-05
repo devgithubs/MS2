@@ -169,3 +169,19 @@ This feature was a 10 for importance and a 10 for difficulty.
 * User selection of game mode difficulty and quantity of questions.
 * User name input and leaderboard rankings.
 * 2 player mode or 1 v computer.
+
+
+
+### Technologies used
+
+* Balsamiq 
+   * Used to create the wireframes for UX design.
+
+* HTML
+   * HTML language used to complete the structure of the website.
+
+* CSS
+   *  CSS to style the website.
+
+* JavaScript
+   * JavaScript primarily for functionality and behaviour throughout the website, event listeners and retrieving the API used for the quizzes questions.  
