@@ -141,4 +141,18 @@ Defined:
 A results section will render the users score out of the total number of questions asked, an accompanying emoji and message will inform the user of their result.
 A 'try again' and 'quit' button will reset the score and allow the user to have another try or leave the game. 
 
+
+
 ### Scope Plane
+
+
+Features:
+   1. A welcome message containing live date/year and 'start' button. 
+   2. A rules section with 'exit' and 'continue' buttons.
+   3. The main game section with rendered question and answer options.
+   4. Timer countdown.
+   5. Question counter.
+   6. Next button.
+   7. A result section displaying the users score and message with 'try again' and 'quit' buttons.
+
+
