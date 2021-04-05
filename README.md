@@ -209,3 +209,12 @@ This feature was a 10 for importance and a 10 for difficulty.
 
 * Google Developer Tools
    * Used to inspect page elements and help debug issues with the website in real time.
+
+
+### Testing
+
+Testing of HTML, CSS and JS was done with the below validators:
+
+[HTML](https://validator.w3.org/)
+[CSS](https://jigsaw.w3.org/css-validator/)
+[JavaScript](https://jshint.com/)
