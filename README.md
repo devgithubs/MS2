@@ -39,9 +39,12 @@ Goals:
 
 #### Wireframes
 
-![Landing Page](../images/Landing page.png)
+<img src="/images/Landing page.png" style="margin: 0;" width="500" height="300">
+
 ![Initalize Game](../images/Initialize game.png)
+
 ![Question Screen](../images/question screen.png)
+
 ![Quiz Result](../images/quiz result.png)
 
 ### Surface Plane 
