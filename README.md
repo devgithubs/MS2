@@ -23,7 +23,7 @@ Goals:
 
 * Present the knowledge acquired in HTML, CSS and JavaScript.
 * Give website users an interactive game experience.
-*  
+* Create a website that will make the user want to stay on the website to beat their personal best score. 
 
 ### Skeleton Plane 
 ### Surface Plane 
