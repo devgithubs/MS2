@@ -155,4 +155,5 @@ Features:
    6. Next button.
    7. A result section displaying the users score and message with 'try again' and 'quit' buttons.
 
+![features](https://user-images.githubusercontent.com/34096825/113609722-13db1700-9644-11eb-8da4-c831303e0960.png)
 
