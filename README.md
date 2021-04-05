@@ -28,12 +28,12 @@ Goals:
 #### User Stories
 
 * As a user, I want to:
--- Understand the purpose of the site on landing.
--- Be able to use the website clearly in the browser.
--- Have a form of game instructions.
--- Have a form of in-game feedback on correct/incorrect answers.
--- Be able to restart the game when the current one has ended.
--- Get a score total for the number of correct answers selected of the total pool of qiestions asked.
+    * Understand the purpose of the site on landing.
+    * Be able to use the website clearly in the browser.
+    * Have a form of game instructions.
+    * Have a form of in-game feedback on correct/incorrect answers.
+    * Be able to restart the game when the current one has ended.
+    * Get a score total for the number of correct answers selected of the total pool of qiestions asked.
 
 ### Skeleton Plane 
 ### Surface Plane 
