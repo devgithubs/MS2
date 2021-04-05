@@ -80,6 +80,15 @@ quitQuiz.onclick = ()=>{
 const nextBtn = document.querySelector("footer .nextBtn");
 const question_counter = document.querySelector("footer .totalQuestions");
 
+// if/when next question button clicked
+nextBtn.onclick = ()=>{
+    if(question_count < quizQuestion[0].length - 1){ //if question count is less than total question length
+        question_count++; //increment the question_count value by 1
+        question_number++; //increment the question_number value by 1
+
+    }
+}
+
 
 // getting quizQuestion and options from array
 function displayQuestions(index){
