@@ -39,7 +39,7 @@ Goals:
 
 #### Wireframes
 
-<img src="/images/Landing page.png">
+<img src="assets/images/5.png">
 
 ![Initalize Game](../images/Initialize game.png)
 
