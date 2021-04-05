@@ -132,7 +132,7 @@ A 'try again' button will be added to the results page to allow the user to star
 
 User Story:
 
-***"Get a score total for the number of correct answers selected of the total pool of qiestions asked."***
+***"Get a score total for the number of correct answers selected of the total pool of questions asked."***
 
 Acceptance criteria:
 * User score is displayed on the screen
