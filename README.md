@@ -215,6 +215,6 @@ This feature was a 10 for importance and a 10 for difficulty.
 
 Testing of HTML, CSS and JS was done with the below validators:
 
-[HTML](https://validator.w3.org/)
-[CSS](https://jigsaw.w3.org/css-validator/)
-[JavaScript](https://jshint.com/)
+* [HTML](https://validator.w3.org/)
+* [CSS](https://jigsaw.w3.org/css-validator/)
+* [JavaScript](https://jshint.com/)
