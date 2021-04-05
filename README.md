@@ -75,7 +75,7 @@ font-family: 'Karla', sans-serif; imported from Google Fonts used throughout.
 
 User Story:
 
-***Understand the purpose of the site on landing.***
+***"Understand the purpose of the site on landing."***
 
 Acceptance criteria:
 * Description informing the user about the quiz.
@@ -87,7 +87,7 @@ The landing papge will display a TV image as the background. A description box m
 
 User Story:
 
-***Be able to use the website clearly in the browser.***
+***"Be able to use the website clearly in the browser."***
 
 Acceptance criteria:
 * Website is readable and rendered clearly for all website content.
@@ -98,7 +98,7 @@ The quiz website works best in browser view on devices from iPad and larger. Boo
 
 User Story:
 
-***Have a form of game instructions.***
+***"Have a form of game instructions."***
 
 Acceptance criteria:
 * Have a set of game rules.
@@ -109,7 +109,7 @@ Once the user clicks the 'start' button they are presented with a set of game ru
 
 User Story:
 
-***Have a form of in-game feedback on correct/incorrect answers.***
+***"Have a form of in-game feedback on correct/incorrect answers."***
 
 Acceptance criteria:
 * User to get instant feedback on their chosen answer
@@ -118,5 +118,27 @@ Defined:
 Once a question is displayed, one of three things can happen. 1)The user selects the correct answer and the correct answer is highlighted with a green tick mark and background. 
 2) The user selects the wrong answer and the wrong answer is highlighted with a red X mark and background and the correct answer is highlighted with a green tick mark and background. 3) The user does not select any answer within 15 seconds and the correct andswer is highlighted with a green tick mark and background, no selection is counted as an incorrect answer.
 
+
+User Story:
+
+***"Be able to restart the game when the current one has ended."***
+
+Acceptance criteria:
+* User can restart game without refreshing the browser window. 
+
+Defined:
+A 'try again' button will be added to the results page to allow the user to start a fresh game. To keep the user engaged they can only use this option when they have completed one whole game.  
+
+
+User Story:
+
+***"Get a score total for the number of correct answers selected of the total pool of qiestions asked."***
+
+Acceptance criteria:
+* User score is displayed on the screen
+
+Defined:
+A results section will render the users score out of the total number of questions asked, an accompanying emoji and message will inform the user of their result.
+A 'try again' and 'quit' button will reset the score and allow the user to have another try or leave the game. 
 
 ### Scope Plane
