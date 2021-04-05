@@ -93,6 +93,10 @@ nextBtn.onclick = ()=>{
         timerProgressBar(widthValue); //calling timerProgressBar function
         timeText.textContent = "Time Left"; //change the timeText to Time Left
         nextBtn.classList.remove("show"); //hide the next button
+    }else{//end of game/no more q's
+        clearInterval(counter); //clear counter
+        clearInterval(counterLine); //clear counterLine
+        renderResult(); //calling renderResult function
     }
 }
 
