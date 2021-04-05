@@ -56,5 +56,14 @@ Quiz result with score and message conditional on result
 <img src="assets/images/quiz reult.png">
 
 ### Surface Plane 
+
+#### Colour Scheme
+Body: Blue #007bff
+Text: Blue #007bff, White #fff, Black #000000
+Answer options: Green if answered correctly. Red if answered incorrectly & correct answer highlighted in Green.
+
+#### Imagery
+Body: Background: Image of retro television used to give the impression of a live TV game show.
+
 ### Structure Plane
 ### Scope Plane
