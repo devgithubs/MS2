@@ -72,4 +72,16 @@ Answer options: tick and X icons used when right/wrong answers are selected. Tro
 font-family: 'Karla', sans-serif; imported from Google Fonts used throughout.
 
 ### Structure Plane
+
+User Story:
+
+*Understand the purpose of the site on landing.*
+
+Acceptance criteria:
+* Description informing the user about the quiz.
+* Proceed by clicking the 'start' button.
+
+Defined:
+The landing papge will display a TV image as the background. A description box mentioneing the live date and prompting the user to participate in the quiz. A start button will prompt the user to carry on to the next stage of the game.
+
 ### Scope Plane
