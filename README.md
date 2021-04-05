@@ -107,5 +107,16 @@ Defined:
 Once the user clicks the 'start' button they are presented with a set of game rules detailing how many seconds they have to answer a question, how they can only pick one answer, how unanswered questions will be counted as incorrect, how they must finish the quiz once they start, and points are awareded for correct answers only.
 
 
+User Story:
+
+***Have a form of in-game feedback on correct/incorrect answers.***
+
+Acceptance criteria:
+* User to get instant feedback on their chosen answer
+
+Defined:
+Once a question is displayed, one of three things can happen. 1)The user selects the correct answer and the correct answer is highlighted with a green tick mark and background. 
+2) The user selects the wrong answer and the wrong answer is highlighted with a red X mark and background and the correct answer is highlighted with a green tick mark and background. 3) The user does not select any answer within 15 seconds and the correct andswer is highlighted with a green tick mark and background, no selection is counted as an incorrect answer.
+
 
 ### Scope Plane
