@@ -157,3 +157,8 @@ Features:
 
 ![features](https://user-images.githubusercontent.com/34096825/113609722-13db1700-9644-11eb-8da4-c831303e0960.png)
 
+API integration using fetch:
+Another feature of the 'backend' of the project is the integration of the [Open Trivia Database](https://opentdb.com/api_config.php) API which provides the questions and answers for the quiz. 
+To make the quiz a challenge, I have selected to use multiple choice questions of various difficulty. 
+As the questions and answers all came indexed in the same order it was necessary to prepare a custom shuffle function to randomise these when rendered to the DOM for the users selection.
+This feature was a 10 for importance and a 10 for difficulty. 
