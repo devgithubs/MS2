@@ -95,4 +95,17 @@ Acceptance criteria:
 Defined:
 The quiz website works best in browser view on devices from iPad and larger. Bootstrap flexbox has been used for the containers' columns and rows for consistent layout.  
 
+
+User Story:
+
+***Have a form of game instructions.***
+
+Acceptance criteria:
+* Have a set of game rules.
+
+Defined:
+Once the user clicks the 'start' button they are presented with a set of game rules detailing how many seconds they have to answer a question, how they can only pick one answer, how unanswered questions will be counted as incorrect, how they must finish the quiz once they start, and points are awareded for correct answers only.
+
+
+
 ### Scope Plane
