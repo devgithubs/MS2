@@ -39,7 +39,7 @@ Goals:
 
 #### Wireframes
 
-<img src="../images/Landing page.png" style="margin: 0;" width="500" height="300">
+<img src="./images/Landing page.png">
 
 ![Initalize Game](../images/Initialize game.png)
 
