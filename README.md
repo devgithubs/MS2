@@ -221,7 +221,7 @@ Testing of HTML, CSS and JS was done with the below validators:
 
 #### Test Cases
 
-[Test Cases](https://github.com/devgithubs/Quiz_Application/files/6267281/Untitled.spreadsheet.-.Sheet1.pdf)
+PDF of complete: [Test Cases](https://github.com/devgithubs/Quiz_Application/files/6267281/Untitled.spreadsheet.-.Sheet1.pdf)
 
 User stories satisfied in the test cases:
 
