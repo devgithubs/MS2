@@ -250,8 +250,8 @@ This is done by:
 
 The Quiz Game was created with the help of tutorials from:
 
-:heart: CodingNepal YouTube Channel [CodingNepal](https://www.youtube.com/c/CodingNepal/about)
-:blue_heart: WebDevSimplified [WDS](https://github.com/WebDevSimplified)
-:yellow_heart: [Code Explained](https://www.youtube.com/c/CodeExplained/about)
+* :heart: CodingNepal YouTube Channel [CodingNepal](https://www.youtube.com/c/CodingNepal/about)
+* :blue_heart: WebDevSimplified GitHub & YouTube [WDS](https://github.com/WebDevSimplified)
+* :yellow_heart: Code Explained YouTube Channel [Code Explained](https://www.youtube.com/c/CodeExplained/about)
 
 Help and guidance from fellow CI student Thiago Santos :fire: 
