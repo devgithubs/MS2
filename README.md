@@ -7,8 +7,8 @@ The project is an interactive fron-end site constructed with knowledge obtained 
 
 ## Table of Contents
 
-- [UX & Design](#UX & Design)
-  * [Strategy Plane](#Strategy Plane)
+- [UX & Design](#ux-&-design)
+  * [Strategy Plane](#strategy-plane)
     + [User Stories](#sub-sub-heading)
   * [Skeleton Plane](#sub-heading)
     + [Wireframes](#sub-sub-heading)
