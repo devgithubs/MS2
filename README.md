@@ -218,3 +218,16 @@ Testing of HTML, CSS and JS was done with the below validators:
 * [HTML](https://validator.w3.org/)
 * [CSS](https://jigsaw.w3.org/css-validator/)
 * [JavaScript](https://jshint.com/)
+
+
+### Deployment
+
+#### Project inception
+
+I created the project folders and file structure in the Visual Studio Code filesystem. I also created a repository in Github to store my code base.
+I coded the majority of the project using VS Code's and the 'live server' extension as I find it more user friendly than GitPod. 
+After finishing the project in VS Code, I transferred the code to GitPod where I then published each code snippet to GitHub using the following protocol:
+
+ * git add 'filename' = add files to the staging area.
+ * git commit 'filename' -m'message' = commit the changes to the local repository
+ * git push = pushes all commits to GitHub's repository
