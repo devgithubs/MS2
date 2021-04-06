@@ -231,3 +231,16 @@ After finishing the project in VS Code, I transferred the code to GitPod where I
  * git add 'filename' = add files to the staging area.
  * git commit 'filename' -m'message' = commit the changes to the local repository
  * git push = pushes all commits to GitHub's repository
+
+#### GitHub Pages - Website Hosting
+
+Once all code was pushed to the repository, the next step was to host the website live on GitHub's servers.
+
+This is done by:
+
+*Navigating to the GitHub Repository.
+*Click the 'Settings' Tab.
+*Scroll Down to the GitHub Pages Heading.
+*Select 'Master Branch' as the source.
+*Click the Save button.
+*Click on the link to go to the live deployed page.
