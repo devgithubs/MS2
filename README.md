@@ -244,3 +244,14 @@ This is done by:
 * Select 'Master Branch' as the source.
 * Click the Save button.
 * Click on the link to go to the live deployed page.
+
+
+### Credits & Acknowledgements
+
+The Quiz Game was created with the help of tutorials from:
+
+:heart: CodingNepal YouTube Channel [CodingNepal](https://www.youtube.com/c/CodingNepal/about)
+:blue_heart: WebDevSimplified [WDS](https://github.com/WebDevSimplified)
+:yellow_heart: [Code Explained](https://www.youtube.com/c/CodeExplained/about)
+
+Help and guidance from fellow CI student Thiago Santos :fire: 
