@@ -9,9 +9,26 @@ The project is an interactive fron-end site constructed with knowledge obtained 
 
 - [UX & Design](#ux-&-design)
   * [Strategy Plane](#strategy-plane)
-    + [User Stories](#sub-sub-heading)
-  * [Skeleton Plane](#sub-heading)
+    + [User Stories](#user-stories)
+  * [Skeleton Plane](#skeleton-plane)
     + [Wireframes](#sub-sub-heading)
+  * [Surface Plane](#surface-plane)
+    + [Colour Scheme](#colour-scheme)
+    + [Imagery](#imagery)
+    + [Iconography](#iconography)
+    + [Typography](#typography)
+  * [Structure Plane](#structure-plane)
+  * [Scope Plane](#scope-plane)
+- [Features left to implement](#features-left-to-implement)
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+  * [Test Cases](#test-cases)
+- [Deployment](#deployment)
+  * [Project inception](#project-inception)
+  * [GitHub Pages - Website Hosting](#githubpages---website-hosting)
+- [Credits & Acknowledgements](#credits-&-acknowledgements)
+
+
 
 ## UX & Design
 
@@ -166,14 +183,14 @@ This feature was a 10 for importance and a 10 for difficulty.
 
 
 
-### Features left to implement
+## Features left to implement
 * User selection of game mode difficulty and quantity of questions.
 * User name input and leaderboard rankings.
 * 2 player mode or 1 v computer.
 
 
 
-### Technologies used
+## Technologies used
 
 * Balsamiq 
    * Used to create the wireframes for UX design.
@@ -212,7 +229,7 @@ This feature was a 10 for importance and a 10 for difficulty.
    * Used to inspect page elements and help debug issues with the website in real time.
 
 
-### Testing
+## Testing
 
 Testing of HTML, CSS and JS was done with the below validators:
 
@@ -233,7 +250,7 @@ User stories satisfied in the test cases:
 - [x] Be able to restart the game when the current one has ended. TC7
 - [x] Get a score total for the number of correct answers selected of the total pool of qiestions asked. TC6
 
-### Deployment
+## Deployment
 
 #### Project inception
 
@@ -259,7 +276,7 @@ This is done by:
 * Click on the link to go to the live deployed page.
 
 
-### Credits & Acknowledgements
+## Credits & Acknowledgements
 
 The Quiz Game was created with the help of tutorials from:
 
