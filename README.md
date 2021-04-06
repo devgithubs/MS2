@@ -3,7 +3,7 @@
 
 ## Objective
 This Website was created for the purpose of satisfying the criteria for the second Milestone Project as part of Code Institute's Full Stack Developer course.
-The project was constructed with knowledge obtained from the previous Milestone project, namely in HTML and CSS but also with knowledge gained in the JavaScript Fundamentals and Interactive Frontend Development modules.
+The project is an interactive fron-end site constructed with knowledge obtained from the previous Milestone project, namely in HTML and CSS but also with knowledge gained in the JavaScript Fundamentals and Interactive Frontend Development modules.
 
 ## Table of Contents
 
@@ -219,6 +219,18 @@ Testing of HTML, CSS and JS was done with the below validators:
 * [CSS](https://jigsaw.w3.org/css-validator/)
 * [JavaScript](https://jshint.com/)
 
+#### Test Cases
+
+[Test Cases](https://github.com/devgithubs/Quiz_Application/files/6267281/Untitled.spreadsheet.-.Sheet1.pdf)
+
+User stories satisfied in the test cases:
+
+- [x] Understand the purpose of the site on landing. TC2
+- [x] Be able to use the website clearly in the browser. TC1
+- [x] Have a form of game instructions. TC3
+- [x] Have a form of in-game feedback on correct/incorrect answers. TC6
+- [x] Be able to restart the game when the current one has ended. TC7
+- [x] Get a score total for the number of correct answers selected of the total pool of qiestions asked. TC6
 
 ### Deployment
 
