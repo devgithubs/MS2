@@ -238,9 +238,9 @@ Once all code was pushed to the repository, the next step was to host the websit
 
 This is done by:
 
-*Navigating to the GitHub Repository.
-*Click the 'Settings' Tab.
-*Scroll Down to the GitHub Pages Heading.
-*Select 'Master Branch' as the source.
-*Click the Save button.
-*Click on the link to go to the live deployed page.
+* Navigating to the GitHub Repository.
+* Click the 'Settings' Tab.
+* Scroll Down to the GitHub Pages Heading.
+* Select 'Master Branch' as the source.
+* Click the Save button.
+* Click on the link to go to the live deployed page.
